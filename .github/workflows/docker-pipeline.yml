@@ -19,3 +19,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
        - name: Docker Push
          run: docker push -t bhavatharinitamil/ml-model-22it004 .
+         
